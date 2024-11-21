@@ -1,8 +1,6 @@
-import { useSidebar } from "../../hooks/useSidebar";
-import { MenuButton } from "../MenuButton";
-import { Sidebar } from "../Sidebar";
-import { SidebarOpenButton } from "../SidebarOpenButton";
-import "./Layout.css";
+import {useSidebar} from "../../../hooks/useSidebar"
+import "./Layout.css"
+import {Sidebar, SidebarOpenButton, MenuButton} from "./components"
 const Layout = ({ children }) => {
     const { isSidebarOpen, toggleSidebar, closeSidebar } = useSidebar();
     return (

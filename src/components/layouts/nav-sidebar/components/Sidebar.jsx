@@ -1,5 +1,5 @@
-import "./layouts/Layout.css"
-import { SidebarCloseButton } from './SidebarCloseButton'
+import "../Layout.css"
+import { SidebarCloseButton } from '../components'
 
 export const Sidebar = ({ isSidebarOpen, toggleSidebar, children }) => {
     return (
